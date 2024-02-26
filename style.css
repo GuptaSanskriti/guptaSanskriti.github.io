@@ -218,6 +218,7 @@ section {
     justify-content: center;
     gap: 1rem;
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .btn {
@@ -272,7 +273,7 @@ section {
 }
 
 .about-details-container {
-    margin-top: 8rem;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -431,7 +432,7 @@ article .icon {
 /* CONTACT */
 #contact {
     display: flex;
-    /* justify-content: center; */
+    justify-content: center;
     flex-direction: column;
     height: 55vh;
 }
@@ -475,7 +476,7 @@ article .icon {
 
 form input, form textarea{
     width: 90%;
-    border-radius: 2rem;
+    border-radius: 10px;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     background: (250, 250, 250);

@@ -1,6 +1,6 @@
 
 let tabLinks = document.getElementsByClassName('tab-links')
-let tabContents = document.getElementsByClassName('tab-contents')
+let tabContents = document.getElementsByClassName('tab-contents')  
 
 function openTab(tabName){
     for(tabLink of tabLinks){
@@ -35,3 +35,15 @@ function toggleMenu() {
 })
       .catch(error => console.error('Error!', error.message))
   })
+
+  document.getElementById("openLinkProject1").addEventListener("click", function() {
+    window.open('https://lively-biscuit-b02bcf.netlify.app', "_blank");
+});  
+
+document.getElementById("openLinkProject2").addEventListener("click", function() {
+    window.open('https://sage-daifuku-04e2c8.netlify.app', "_blank");
+});
+
+document.getElementById("openLinkProject3").addEventListener("click", function() {
+    window.open('https://delightful-marshmallow-4acc59.netlify.app/', "_blank");
+}); 

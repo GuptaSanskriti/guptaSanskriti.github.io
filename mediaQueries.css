@@ -1,4 +1,4 @@
-@media screen and (max-width:1300px) {
+@media screen and (max-width:1400px) {
     #profile {
         height: 83vh;
         margin-bottom: 6rem;
@@ -7,9 +7,14 @@
     .about-containers {
         flex-wrap: wrap;
     }
+
+    #contact,
+    #projects {
+      height: fit-content;
+    }
 }
 
-@media screen and (max-width:1100px) {
+@media screen and (max-width:1200px) {
     #desktop-nav {
         display: none;
     }
@@ -51,14 +56,12 @@
     }
 }
     
-    @media screen and (max-width:500px) { 
-    #contact,
+    @media screen and (max-width:600px) { 
     footer {
-        height: 40vh;
+        height: 30vh;
     }
     
     #profile {
-        height: 53vh;
         margin-bottom: 0;
     }
     
@@ -72,7 +75,6 @@
     }
     
     .about-containers,
-    .contact-info-upper-container,
     .btn-container {
         flex-wrap: wrap;
     }
@@ -117,4 +119,9 @@
     .text-container {
         text-align: justify;
     }
+
+    .contact-container{
+        flex-direction: column;
+    }
+
 }

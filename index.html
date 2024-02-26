@@ -22,7 +22,7 @@
         </div>
     </nav>
     <nav id="hamburger-nav">
-        <div class="logo">Sanskriti Gupta</div> 
+        <div class="logo">Sanskriti Gupta</div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -67,48 +67,27 @@
         <h1 class="title">About Me</h1>
         <div class="section-container">
             <div class="section__pic-container">
-                <img src="./assets/about_1.png" alt="Profile pictiure" class="about-pic" />
+                <img src="./assets/about.png" alt="Profile pictiure" class="about-pic" />
             </div>
             <div class="about-details-container">
-                <!-- <div class="about-containers">
-                    <div class="details-container">
-                        <img src="./assets/experience.png" alt="Experience icon" class="icon" />
-                        <h3>Experience</h3>
-                        <p>2+ years <br>Frontend Development</p>
-                    </div>
-                    <div class="details-container">
-                        <img src="./assets/education.png" alt="Education icon" class="icon" />
-                        <h3>Education</h3>
-                        <p>B.Tech</p>
-                    </div>
-                </div> -->
                 <div class="text-container">
                     <p>
-                        I'm a software engineer specializing in building(and occasionally designing) the visual digital world. 
-                        Over the years, I've constructed a diverse array of front-ends, ranging from E-commerce platforms 
-                        to attendance tracking systems.<br> I like to craft pixel-perfect, visually 
+                        I'm a software engineer specializing in building(and occasionally designing) the visual digital
+                        world.
+                        Over the years, I've constructed a diverse array of front-ends, ranging from messaging apps
+                        to attendance tracking systems.<br> I like to craft pixel-perfect, visually
                         pleasing interfaces, complemented by intuitive user experiences.
                     </p>
                 </div>
                 <div class="tab-titles">
-                    <p 
-                    class="tab-links active-link" 
-                    onclick="openTab('experience')">
-                    <img 
-                    src="./assets/experience.png" 
-                    alt="Experience icon" 
-                    class="icon ex-icon"/>
-                    Experience
-                </p>
-                    <p 
-                    class="tab-links" 
-                    onclick="openTab('education')">
-                    <img 
-                    src="./assets/education.png" 
-                    alt="Education icon" 
-                    class="icon ex-icon" />
-                    Education
-                </p>
+                    <p class="tab-links active-link" onclick="openTab('experience')">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon ex-icon" />
+                        Experience
+                    </p>
+                    <p class="tab-links" onclick="openTab('education')">
+                        <img src="./assets/education.png" alt="Education icon" class="icon ex-icon" />
+                        Education
+                    </p>
                 </div>
                 <div class="tab-contents active-tab" id="experience">
                     <ul>
@@ -226,11 +205,7 @@
                 </div>
             </div>
         </div>
-        <img 
-        src="./assets/arrow.png" 
-        alt="Arrow icon" 
-        class="icon arrow" 
-        onclick="location.href='./#projects'" />
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
     </section>
     <section id="projects">
         <p class="section__text__p1">Browse my recent</p>
@@ -239,84 +214,86 @@
             <div class="about-containers">
                 <div class="details-container color-container">
                     <div class="article-container">
-                        <img src="./assets/project-3.png" alt="project 1" class="project-img" />
+                        <img src="./assets/project-banter.png" alt="project 1" class="project-img" />
                     </div>
-                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <h3 class="experience-sub-title project-title">Banter</h3>
+                    <p>Banter is an app that allows user to send text to each other, keep in touch, share media in real
+                        time. Just sign up and begin.</p>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/GuptaSanskriti/fe-projects/tree/main/banter'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                        <button class="btn btn-color-2 project-btn" id="openLinkProject1">
                             Live Demo
                         </button>
                     </div>
                 </div>
                 <div class="details-container color-container">
                     <div class="article-container">
-                        <img src="./assets/project-3.png" alt="project 1" class="project-img" />
+                        <img src="./assets/project-splurge.png" alt="project 2" class="project-img" />
                     </div>
-                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <h3 class="experience-sub-title project-title">Splurge</h3>
+                    <p>Splurge is a online shopping platform that prioritize user experience and make it easy for
+                        customers to find the products of their choice.</p>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/GuptaSanskriti/fe-projects/tree/main/quizzical'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
-                            Live Demo
-                        </button>
+                        <button class="btn btn-color-2 project-btn" id="openLinkProject2">Live Demo</button>
                     </div>
                 </div>
                 <div class="details-container color-container">
                     <div class="article-container">
-                        <img src="./assets/project-3.png" alt="project 1" class="project-img" />
+                        <img src="./assets/project-quizzical.png" alt="project 3" class="project-img" />
                     </div>
-                    <h2 class="experience-sub-title project-title">Project One</h2>
+                    <h3 class="experience-sub-title project-title">Quizzical</h3>
+                    <p>Quizzical is a fun quiz app for practicing your knowledge and gaining as well. A timer based app
+                        that lets the user record the scores.</p>
                     <div class="btn-container">
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="location.href='https://github.com/GuptaSanskriti/fe-projects/tree/main/quizzical'">
                             Github
                         </button>
-                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">
+                        <button class="btn btn-color-2 project-btn" id="openLinkProject3">
                             Live Demo
                         </button>
                     </div>
                 </div>
             </div>
         </div>
-        <img 
-        src="./assets/arrow.png" 
-        alt="Arrow icon" 
-        class="icon arrow" 
-        onclick="location.href='./#contact'" />
+        <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
     </section>
     <section id="contact">
         <h1 class="title">Get in Touch</h1>
         <div class="contact-container">
-        <div class="contact-info-left-container">
-            <h1 class="text">Contact Me</h1>
-            <div class="contact-info-container-1">
-                <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
-                <p><a href="mailto:gupta.sanskriti05@gmail.com">gupta.sanskriti05@gmail.com</a></p>
+            <div class="contact-info-left-container">
+                <h1 class="text">Contact Me</h1>
+                <div class="contact-info-container-1">
+                    <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+                    <p><a href="mailto:gupta.sanskriti05@gmail.com">gupta.sanskriti05@gmail.com</a></p>
+                </div>
+                <div class="contact-info-container-2">
+                    <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+                    <p>
+                        <a href="https://www.linkedin.com/in/sanskriti-gupta-05/">
+                            LinkedIn</a>
+                    </p>
+                </div>
             </div>
-            <div class="contact-info-container-2">
-                <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
-                <p>
-                    <a href="https://www.linkedin.com/in/sanskriti-gupta-05/">
-                        LinkedIn</a>
-                </p>
+            <div class="contact-info-right-container">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Enter text here"></textarea>
+                    <button type="submit" class="btn btn-color-2 form-btn">
+                        Send
+                    </button>
+                </form>
+                <span id="success-msg"></span>
             </div>
         </div>
-        <div class="contact-info-right-container">
-            <form name="submit-to-google-sheet">
-                <input type="text" name="Name" placeholder="Your name" required>
-                <input type="email" name="Email" placeholder="Your email" required>
-                <textarea name="Message" rows="6" placeholder="Enter text here"
-                ></textarea>
-                <button type="submit" class="btn btn-color-2 form-btn">
-                    Send
-                </button>
-            </form>
-            <span id="success-msg"></span>
-        </div>
-    </div>
     </section>
     <footer>
         <nav>
